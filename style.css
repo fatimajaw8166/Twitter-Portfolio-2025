@@ -1,0 +1,36 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    transition: background-color 0.3s;
+}
+
+/* Sidebar Profile Card */
+.card-img-top {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+/* Tweet Cards */
+.card {
+    transition: transform 0.3s ease-in-out;
+}
+.card:hover {
+    transform: scale(1.02);
+}
+
+/* Buttons */
+.btn-hover:hover {
+    filter: brightness(85%);
+}
+
+/* Responsive Tweaks */
+@media (max-width: 992px) {
+    .sidebar {
+        display: none;
+    }
+}
